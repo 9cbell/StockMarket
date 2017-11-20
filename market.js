@@ -8,10 +8,10 @@ const Portfolio = require("./portfolio.js");
 function main(){
 
     //create all of your stocks
-    let s1 = new Stock(Electronic Arts, EA, 112.48, 150);
-    let s2 = new Stock(Amazon);
-    let s3 = new Stock(Microsoft);
-    let s4 = new Stock(Apple);
+    let s1 = new Stock("Electronic Arts", "EA","index", 112.48, 150);
+    let s2 = new Stock("Amazon", "AMZN","NASDAQ", );
+    let s3 = new Stock("Microsoft", "MSFT" "NASDAQ");
+    let s4 = new Stock("Apple","");
 
     //build your Portfolio
     let myport = new Portfolio();
